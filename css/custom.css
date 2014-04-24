@@ -25,14 +25,16 @@ body.landing {
 }
 
 .section3 {
-  background-color: #ffbe00;
+  background-color: #ff5046;
     width: 100%;
+    font-size: 14px;
 
 }
 
 .footer {
   background-color: #333;
     width: 100%;
+    text-align:center;
 
 }
 
@@ -42,11 +44,32 @@ body.page {
 
 h1 {
   font-size: 20px;
-  color: #ff5046;
+}
+
+h2 {
+  font-size: 24px;
+  color: #f1f1f1;
+}
+
+h3 {
+display: inline-block;
+margin-bottom: 5px;
+font-weight: 700;
+font-size:14px;
+text-align:center;
 }
 
 p {
   margin: 2em 0;
+}
+
+label {
+display: inline-block;
+margin-bottom: 5px;
+font-weight: 700;
+font-size:14px;
+text-align:left;
+    
 }
 
 a:link, a:visited, a:hover, a:active {
