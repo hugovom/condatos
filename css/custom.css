@@ -18,13 +18,14 @@ body.landing {
 }
 
 .section2 {
-  background-color: #ffbe00;
+  background-color: #f1f1f1;
     width: 100%;
+    color: #333;
 
 }
 
 .section3 {
-  background-color: #f1f1f1;
+  background-color: #ffbe00;
     width: 100%;
 
 }
