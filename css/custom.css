@@ -14,6 +14,7 @@ body.landing {
 .section1 {
   background-color: #ff5046;
     width: 100%;
+    color:#fff;
 
 }
 
@@ -28,6 +29,8 @@ body.landing {
   background-color: #ff5046;
     width: 100%;
     font-size: 14px;
+        color:#fff;
+
 
 }
 
@@ -237,7 +240,6 @@ body.page .content {
 
 body.landing .content {
   text-align: center;
-  color: #fff;
 
 }
 
