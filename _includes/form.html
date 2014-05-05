@@ -1,19 +1,28 @@
 
-<h2>Mánda tu solicitud</h2>
+<h2>Manda tu solicitud</h2>
 
 <p>Intently sniff hand intrigued by the shower need to chase tail or need to chase tail for throwup on your pillow, throwup on your pillow. Why must they do that. </p>
 
-<form role="form" id="signup">
+
+
+<div class="forma">
+
+<form class=forma role="form" id="signup">
     
-    <label for="name">Tu nombre completo</label>
+        <h3>Información General</h3><br>
+
+    
   <div class="form-group">
-    <input type="text" class="form-control" id="name" placeholder="Nombre Apellidos">
+    <input type="text" class="form-control" id="name" placeholder="Nombre completo">
   </div>
     
-    <label for="name">¿Dónde vives actualmente?</label>
+    <div class="form-group">
+    <input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+  </div>
+    
       <div class="form-group">
     <select class="form-control">
-  <option>Selecciona uno</option>
+  <option>¿Dónde vives actualmente?</option>
   <option>Aguascalientes</option>
   <option>Baja California</option>
   <option>Baja California Sur</option>
@@ -49,51 +58,59 @@
 </select>
   </div>
 
-
-        <label for="estudios">Estudios</label>
-  <div class="form-group">
-    <input type="text" class="form-control" id="estudios" placeholder="Grado y especialidad">
-  </div>
     
-            <label for="certificados">Otros Estudios</label>
-  <div class="form-group">
-    <input type="text" class="form-control" id="certificados" placeholder="Diplomados, certificados, cursos en línea concluídos, etc.">
-  </div>
     
-
-               <h3>Habilidades</h3>
     <div class="form-group">
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox1" value="option1"> Programación web
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox2" value="option2"> Diseño
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox3" value="option3"> Análisis de datos
-</label>
-    <label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox4" value="option3"> Desarrollo de aplicacione móviles
-</label>
-       <label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox5" value="option3"> Cartografía
-</label>
+    <label for="estudios">Estudios</label>
+    <textarea class="form-control" id="estudios" rows="5" placeholder="Grado y especialidad"></textarea>
           </div>
 
-                <label for="experiencia">Experiencia</label>
-  <div class="form-group">
-    <input type="text" class="form-control" id="experiencia" placeholder="Describe algunos proyectos que has hecho o en los que hayas participado empleando estas habilidades.">
-  </div>
+        <div class="form-group">
+        <label for="certificados">Otros estudios</label>
+    <textarea class="form-control" id="certificados" rows="5" placeholder="Diplomados, certificados, cursos en línea concluídos, etc."></textarea>
+         </div>
+
+
+                   <h3>Habilidades</h3>
     
-            <h3>Disponibilidad de tiempo <br>El proyecto de Agentes de innovación requiere tiempo completo, ¿actualmente      cuentas con esta disponibilidad?</h3>
+    <div class="form-group">
+<label class="checkbox">
+  <input type="checkbox" id="Checkbox1" value="option1"> Programación web
+</label>
+<label class="checkbox">
+  <input type="checkbox" id="inlineCheckbox2" value="option2"> Diseño
+</label>
+<label class="checkbox">
+  <input type="checkbox" id="inlineCheckbox3" value="option3"> Análisis de datos
+</label>
+    <label class="checkbox">
+  <input type="checkbox" id="inlineCheckbox4" value="option3"> Desarrollo de aplicacione móviles
+</label>
+       <label class="checkbox">
+  <input type="checkbox" id="inlineCheckbox5" value="option3"> Cartografía
+</label>
+          </div><br>
+
+        <div class="form-group">
+           <label for="experiencia">Experiencia</label>
+    <textarea class="form-control" id="experiencia" rows="5" placeholder="Describe algunos proyectos que has hecho o en los que hayas participado empleando estas habilidades."></textarea>
+                      </div>
+
+
     
+            <h3>Disponibilidad de tiempo</h3><br> <label>El proyecto de Agentes de innovación requiere tiempo completo, ¿actualmente cuentas con esta disponibilidad?</label><br>
      <div class="form-group">
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox1" value="option1"> Sí
-</label>
-<label class="checkbox-inline">
-  <input type="checkbox" id="inlineCheckbox2" value="option2"> No
-</label>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+    Sí
+  </label>
+</div>
+<div class="radio">
+  <label>
+    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+      No  </label>
+</div>
           </div>
         
                     <label for="porcentaje">Si elegiste la opción "No" en la pregunta anterior, especifica el porcentaje de tiempo que tienes disponible para este proyecto.</label>
@@ -106,12 +123,14 @@
         </select>
   </div>
          
-  <label for="motivos">Declaración de motivos</label>
-
-  <div class="form-group">
-    <input type="text" class="form-control" id="motivos" placeholder="Platícanos por qué te interesa ser parte de este proyecto">
-  </div>
     
-  <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+    <h3>Declaración de motivos</h3>
+    <textarea class="form-control" id="motivos" rows="5" placeholder="Platícanos por qué te interesa ser parte de este proyecto."></textarea>
+
+    
+    <div class="botonforma">
+          <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+    </div>
 </form>
-    <div>
+
+        </div>

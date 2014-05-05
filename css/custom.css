@@ -7,7 +7,7 @@ body {
 }
 
 body.landing {
-  background-color: #ffbe00;
+  background-color: #ff5046;
     width: 100%;
 }
 
@@ -46,24 +46,40 @@ body.page {
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 28px;
+    color: #ff5046;
+    text-transform:uppercase;
+    font-weight:900;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
   color: #f1f1f1;
+    margin-bottom: 1em;
+margin-top: 1em;
 }
 
 h3 {
+color: #666;
 display: inline-block;
-margin-bottom: 5px;
-font-weight: 700;
-font-size:14px;
+margin-bottom: 20px;
+margin-top: 40px;
+font-weight: 900;
+font-size:24px;
 text-align:center;
 }
 
+h4 {
+  font-size: 20px;
+    color: #ff5046;
+    margin-top: 2em;
+
+    
+}
+
 p {
-  margin: 2em 0;
+margin-top:20px;
+margin-bottom:20px;
 }
 
 label {
@@ -104,11 +120,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .btn:hover {
-  background-color: #ffbe00;
+  background-color: #ff5046;
 }
 
 .btn:focus, .btn:active {
-  background-color: #00B15A;
+  background-color: #ffdcd2;
 }
 
 .btn-primary {
@@ -147,9 +163,6 @@ a:link, a:visited, a:hover, a:active {
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-    max-width:400px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 
@@ -253,12 +266,34 @@ body.landing .content {
 
 
 /*** Signup Form ***/
+.forma {
+    background-color:#f1f1f1;
+    text-align:left;
+    align-content:left;
+padding-left:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+
+    color:#333;
+        
+}
 
 .form-group {
+      margin-top: 10px;
   margin-bottom: 10px;
+        text-align:left;
+
 }
 
 .form-control {
   height: 40px;
+text-align:left;
+
+
+}
+
+.botonforma {
+   padding-top:20px; 
+    text-align:center;
 }
 
