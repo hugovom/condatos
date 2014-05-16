@@ -12,10 +12,9 @@ body.landing {
 }
 
 .section1 {
-  background-color: #ff5046;
+  background-color: #5a5c70;
     width: 100%;
     color:#fff;
-  background-image:url("../img/background.png");
 
 }
 
@@ -27,16 +26,16 @@ body.landing {
 }
 
 .section3 {
-  background-color: #ff5046;
+  background-color: #9ef0d9;
     width: 100%;
     font-size: 14px;
-        color:#fff;
+        color:#5a5c70;
 
 
 }
 
 .footer {
-  background-color: #333;
+  background-color: #383a4f;
     width: 100%;
     text-align:center;
 
@@ -55,7 +54,7 @@ h1 {
 
 h2 {
   font-size: 28px;
-  color: #f1f1f1;
+  color: #5a5c70;
     margin-bottom: 1em;
 margin-top: 1em;
 }
@@ -79,8 +78,9 @@ h4 {
 }
 
 p {
-margin-top:20px;
-margin-bottom:20px;
+margin-top:40px;
+margin-bottom:40px;
+text-align:left;
 }
 
 label {
@@ -197,8 +197,8 @@ a:link, a:visited, a:hover, a:active {
   border-width: 0 0 1px;
 }
 .navbar-inverse {
-  background-color: #333;
-  border-color: #333;
+  background-color: #383a4f;
+  border-color: #383a4f;
 }
 
 .navbar-brand {
@@ -263,7 +263,7 @@ body.landing .content {
 }
 
 .logo-horizontal {
-  width: 200px;
+  width: 100%;
 }
 
 .img-infografia {
