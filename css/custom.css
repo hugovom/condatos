@@ -237,7 +237,7 @@ margin-left:40px;
   padding: 30px;
   margin: 50px auto;
   font-size: 18px;
-  text-align:left;
+  text-align:center;
 }
 
 .content {
@@ -264,6 +264,11 @@ body.landing .content {
 
 .logo-horizontal {
   width: 100%;
+}
+
+.logo-condatos {
+    text-align:left;
+    padding:20px;
 }
 
 .img-infografia {
