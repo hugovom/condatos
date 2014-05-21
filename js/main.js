@@ -21,8 +21,8 @@ $( document ).ready(function() {
         $(".alert").text('¡Gracias por registrarte! Te mantendremos al tanto.');
         $(".alert").addClass('alert-success');
         $(".alert").show();
-        $('button[type="submit"]').attr('disabled', 'disabled');
-        $('button[type="submit"]').addClass('disabled');
+        //$('button[type="submit"]').attr('disabled', 'disabled');
+        //$('button[type="submit"]').addClass('disabled');
       }
     });
   });
