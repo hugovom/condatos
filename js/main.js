@@ -34,8 +34,7 @@ function submitToGoogleForm() {
 $(document).ready(function() {
   $('form#signup').on('submit', function(e) {
     e.preventDefault();
-    if($(this).valid())
-      submitToGoogleForm();
+    submitToGoogleForm();
   });
 });
 
