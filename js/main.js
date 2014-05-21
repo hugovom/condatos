@@ -19,7 +19,7 @@ function submitToGoogleForm() {
       'entry.910027698': $('input#pais').val(),
       'entry.1520415052': sectorValue,
       'entry.1520415052.other_option_response': otherSectorValue,
-      'entry.1513088725': $('input#preguntas').val(),
+      'entry.1513088725': $('#preguntas').val(),
     },
     dataType: 'jsonp',
     complete: function() {
