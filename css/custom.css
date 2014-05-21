@@ -7,7 +7,7 @@ body {
 }
 
 body.landing {
-  background-color: #ff5046;
+  background-color: #5a5c70;
     width: 100%;
 }
 
@@ -305,6 +305,15 @@ text-align:left;
 
 .botonforma {
    padding-top:20px; 
+    text-align:center;
+}
+
+
+
+.botonlink {
+    height: 80px;
+    width: 300px; 
+    background-color:#5a5c70;
     text-align:center;
 }
 
