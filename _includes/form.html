@@ -13,21 +13,40 @@
 
     
   <div class="form-group">
-    <input type="text" class="form-control" id="name" placeholder="Nombre completo">
+    <input type="text" class="form-control" id ="name" placeholder="Nombre completo" name="nombre"
+          data-msg-required="Campo requerido"
+          data-msg-maxlength="máximo 50 caracteres"
+          data-msg-minlength="mínimo 5 caracteres"
+          data-rule-maxlength="50"
+          data-rule-minlength="5"
+          data-rule-required="true"/>        
   </div>
     
-    <div class="form-group">
-    <input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+  <div class="form-group">
+    <input type="email" class="form-control" id="email" placeholder="Correo electrónico" name="email"
+          data-rule-required="true"
+          data-rule-email="true"
+          data-msg-required="Campo requerido"
+          data-msg-email="Por favor ingresa un correo válido"/>
   </div>
     
-        <div class="form-group">
-    <input type="text" class="form-control" id="institucion" placeholder="Institución y área laboral">
+  
+  <div class="form-group">
+   <input
+          data-msg-required="Campo requerido"
+          data-msg-maxlength="máximo 50 caracteres"
+          data-msg-minlength="mínimo 2 caracteres"
+          data-rule-maxlength="50"
+          data-rule-minlength="2"
+          data-rule-required="true"
+       type="text" class="form-control" id="institucion" placeholder="Institucion" name="institucion"/>
   </div>
+  
     
-      <div class="form-group">
+  <div class="form-group">
     <select class="form-control">
-  <option selected>¿País?</option>
-   <option value="AF">Afganistán</option> 
+        <option selected>¿País?</option>
+        <option value="AF">Afganistán</option> 
         <option value="Argentina">Argentina</option> 
         <option value="Bolivia">Bolivia</option> 
         <option value="Chile">Chile</option> 
@@ -54,82 +73,78 @@
         <option value="Otros - &Aacute;frica">Otros - África</option> 
         <option value="Otros - Asia">Otros - Asia</option> 
         <option value="Otros - Oceania">Otros - Oceania</option></select>
-</select>
+    </select>
   </div>
 
     
 
                    <h3>Sector de ocupación</h3>
     
-<div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
     Programación web
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
     Gobierno
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked>
     Sociedad civil
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios4" value="option4" checked>
     Periodismo
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios5" value="option5" checked>
     Academia
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios6" value="option6" checked>
     Tecnología
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios7" value="option7" checked>
     Organismo Multilateral
-  </label>
-</div>
+   </label>
+  </div>
     
-    <div class="radio">
-  <label>
+  <div class="radio">
+   <label>
     <input type="radio" name="optionsRadios" id="optionsRadios8" value="option8" checked>
     Otro
-  </label>
-</div>
+   </label>
+  </div>
     
-
-
-
-
     
     <h3>Preguntas, comentarios o sugerencias</h3>
  <label for="preguntas">Toda la información referente al programa, participación y apoyos para AbreLATAM CONDATOS será publicada y comunicada por correo electrónico en los próximos meses. </label>
     <textarea class="form-control" id="preguntas" rows="5" placeholder=""></textarea>
 
     
-    <div class="botonforma">
-          <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
-    </div>
+  <div class="botonforma">
+    <button type="submit" class="btn btn-primary btn-lg">ENVIAR</button>
+  </div>
 </form>
 
-        </div>
+</div>
