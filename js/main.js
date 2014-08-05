@@ -32,10 +32,12 @@ function submitToGoogleForm() {
 }
 
 $(document).ready(function() {
+  $('.open-popup-link').magnificPopup();
   $('form#signup').on('submit', function(e) {
     e.preventDefault();
     submitToGoogleForm();
   });
+  $('.open-popup-link').click();
 });
 
 
