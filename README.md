@@ -1,7 +1,7 @@
-agentes
-=======
+condatos
+========
 
-Página de pre-lanzamiento de la iniciativa de "Agentes de Innovación".
+Página del evento ConDatos.
 
 Dependencias:
 * Jekyll: Generador de páginas estáticas
