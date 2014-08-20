@@ -16,14 +16,10 @@
 <link rel="stylesheet" href="{{ site.root_url }}/css/custom.css">
 <!-- Open Sans -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-<!-- Magnific Popup core CSS file -->
-<link rel="stylesheet" href="{{ site.root_url }}/css/magnific-popup.css">
 
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script src="{{ site.root_url }}/js/main.js"></script>
-<!-- Magnific Popup core JS file -->
-<script src="{{ site.root_url }}/js/jquery.magnific-popup.min.js"></script>
 
 </head>
 
@@ -37,25 +33,30 @@
       </div>
     </div>
     <div class="navbar-right">
-      <a class="navbar-brand" href="indexen.html">EN</a>
-    </div>
-    <div class="navbar-right">
+      <a class="navbar-brand" href="indexen.html">EN</a>   </div>
+          <div class="navbar-right">
+
       <a class="navbar-brand" href="{{ site.root_url }}{{ page.back_path }}">{{ page.back_label }}</a>
+      
     </div>
+
   </div>
 </div>
 
-<div class="alert" style="display: none"></div>
+  <div class="alert" style="display: none"></div>
   {{ content }}
 </div>
-
-
+    
+    
+    
 <div class="container footer">
-  <div class="content-wrapper">
-    <div class="footer">
+
+<div class="content-wrapper">
+  <div class="footer">
       {% include footer.html %}  
-    </div>
   </div>
+</div>
+
 </div>
 
 

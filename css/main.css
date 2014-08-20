@@ -158,14 +158,3 @@ ul.posts span {
 .post pre.terminal code {
   background-color: #333;
 }
-
-.white-popup {
-  position: relative;
-  background: #9EF0D9;
-  color: #383A4F;
-  padding: 40px;
-  width: auto;
-  max-width: 500px;
-  margin: 20px auto;
-}
-
