@@ -201,6 +201,7 @@ input[type="search"]::-webkit-search-decoration {
   font-weight: normal;
   font-style: normal; }
 
+
 .content {
   padding: 0px 0 0; }
 
@@ -775,7 +776,9 @@ input:focus, select:focus, textarea:focus {
 -------------------------------------------------------------- */
 h2 {
   color: #4a4b5c;
-  font: 500 35px/1.9 'quicksandbold'; }
+  font-size: 500 35px/1.9;
+    font-family: 'Quicksand', sans-serif;
+}
 
 h3 {
   color: #ff5a50;
