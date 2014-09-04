@@ -23,13 +23,13 @@
 
 </head>
 
-<body class="{{ page.class }}">
+<body  class="{{ page.class }}">
 
-<header class="navbar">
+<header  {% if page.class == "landing" %} {{ 'id="home"' }} {% endif %}  class="navbar">
   <div class="container">
     <div class="row">
     	<div class="col-sm-4">
-				 <a href="{{ site.root_url }}" ><img class="logonavbar" src="../img/condatos_logo.svg"/>
+				 <a href="../indexen.html" ><img class="logonavbar" src="../img/condatos_logo.svg"/>
     	</div>
     	<nav class="col-sm-8">
     		<ul class="navbar-brand">

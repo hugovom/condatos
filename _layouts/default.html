@@ -25,7 +25,7 @@
 
 <body class="{{ page.class }}">
 
-<header class="navbar">
+<header {% if page.class == "landing" %} {{ 'id="home"' }} {% endif %} class="navbar">
   <div class="container">
     <div class="row">
     	<div class="col-sm-4">
