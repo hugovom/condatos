@@ -147,6 +147,10 @@ a:hover, a:active, a:focus {
 a.thumb, .share a, #controls a, .flex-control-nav a, .flex-direction-nav a, .viewer .close, #disqus_thread a {
   border: none; }
 
+ul {
+  margin-left: 20px;
+}
+
 /* = MEDIA 
 ---------------------------------------------------
 	remember inline heights within markup will break proportional scaling
@@ -1160,11 +1164,16 @@ footer {
   .title h1 {
     font: 700 30px 'Open Sans';
     color: white; }
-
-
+   .title h2 {
+     font-size: 20px;
+     margin: -20px 0 0 120px;
+   }
 
 .contenido {
   text-align: left; }
+.contenido h2 {
+  margin: 0 0 0.5em 0;
+}
 
 .acerca .title {
   background: #ff5a50; }
