@@ -55,6 +55,14 @@ $(document).ready(function() {
     return false;
   });
   
+    
+/**
+** Popover Bootstrap
+*/ 
+  $(".popover-example a").popover({
+        placement : 'right'
+    });
 
 
 });
+
