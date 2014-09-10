@@ -64,6 +64,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline; }
 
+
+
+
 h1, h2, h3, h4, h5, .cta, blockquote.feature, #access, #insidenav, #pagination, .bloglist .more, blockquote {
   font-family: 'Open Sans', sans-serif;
   font-weight: 500; }
@@ -122,7 +125,10 @@ p, ul, ol, dl, table, form {
   /* 13px */
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  margin: 0 0 1.5em 0; }
+  margin: 0 0 1.5em 0;
+  text-align:left;
+}
+
 
 /* = LINKS */
 a, a:link {
