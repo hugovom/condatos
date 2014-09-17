@@ -932,6 +932,9 @@ footer, .expertos {
 .paralelos {
   background: #dcdcdc; }
 
+.sedes {
+  background: #c5c5c5; }
+
 .aliados {
   background: #8282a0; }
 
@@ -1011,13 +1014,13 @@ footer, .expertos {
     color: #ff5a50;
     text-transform: uppercase; }
 
-.asiste, .programas, .contenido, .aliados, .paralelos, footer {
+.asiste, .programas, .contenido, .aliados, .paralelos, .sedes, footer {
   padding: 60px 0;
   text-align: center; }
-  .asiste .lead, .programas .lead, .contenido .lead, .aliados .lead, .paralelos .lead, footer .lead {
+  .asiste .lead, .programas .lead, .contenido .lead, .aliados .lead, .paralelos .lead, .sedes .lead, footer .lead {
     font-size: 14px;
     margin: 40px 0 50px; }
-  .asiste p, .programas p, .contenido p, .aliados p, .paralelos p, footer p {
+  .asiste p, .programas p, .contenido p, .aliados p, .paralelos p, .sedes p, footer p {
     color: #4a4b5c; }
 
 /*** programas **/
@@ -1039,6 +1042,20 @@ footer, .expertos {
   .paralelos a img {
     margin-bottom: 30px; }
   .paralelos a:hover {
+    color: #ff5a50; }
+
+/*** sedes **/
+.sedes a {
+  color: #4a4b5c;
+  display: inline-block;
+  font: 700 16px 'Open Sans';
+  margin: 50px 45px 0;
+  width: 186px; }
+  .sedes a span {
+    display: block; }
+  .sedes a img {
+    margin-bottom: 30px; }
+  .sedes a:hover {
     color: #ff5a50; }
 
 /*** asiste **/
@@ -1285,6 +1302,9 @@ footer {
     list-style: outside;
     margin-left: 50px; }
   .paralelos a {
+    margin: 50px 19px 0;
+    width: 110px; }
+	 .sedes a {
     margin: 50px 19px 0;
     width: 110px; }
   .aliados a {
