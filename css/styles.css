@@ -144,11 +144,6 @@ a, a:link {
 .alt a, .alt a:link {
   color: gray; }
 
-a:visited {
-  color: gray;
-  background-color: transparent;
-  text-decoration: none; }
-
 a:hover, a:active, a:focus {
   background-color: transparent;
   text-decoration: none; }
