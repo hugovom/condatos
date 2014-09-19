@@ -1,7 +1,9 @@
-agentes
+ConnDatos
 =======
 
-Página de pre-lanzamiento de la iniciativa de "Agentes de Innovación".
+II Open Data Regional Conference for Latin America and the Caribbean
+Mexico City 2014
 
-Dependencias:
-* Jekyll: Generador de páginas estáticas
+
+Secret Sauce:
+* Jekyll
