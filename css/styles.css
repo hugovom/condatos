@@ -56,6 +56,37 @@ textarea {
 a {
   text-decoration: none; }
 
+
+.a, .a:link, .btn-condatos {
+  color: #000;
+  background-color: #a0f0dc;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+
+.a, .a:link, .btn-politicas {
+  color: #000;
+  background-color: #e6ff00;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+
+.a, .a:link, .btn-herramientas {
+  color: #000;
+  background-color: #ff5a50;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+
+.a, .a:link, .btn-innovacion {
+  color: #000;
+  background-color: #b1aadc;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+
+.a, .a:link, .btn-taller {
+  color: #000;
+  background-color: #00d4f1;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none; }
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -137,7 +168,6 @@ p, ul, ol, dl, table, form {
 /* = LINKS */
 a, a:link {
   color: #00a3a1;
-  background-color: transparent;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
@@ -784,6 +814,9 @@ input:focus, select:focus, textarea:focus {
   position: absolute;
   top: -999em;
   left: -999em; }
+
+
+
 
 /* =Main content and comment content
 -------------------------------------------------------------- */
