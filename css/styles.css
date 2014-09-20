@@ -1270,6 +1270,7 @@ footer {
      margin: -20px 0 0 120px;
    }
 
+
 .contenido {
   text-align: left; }
 .contenido h2 {
@@ -1298,6 +1299,10 @@ footer {
 
 .data .title {
   background: #edf04f; }
+
+.agenda .title {
+  background: #dcdcdc; }
+
   .data .title h1 {
     background: url(../img/bootcamp_icon.png) no-repeat;
     background-size: 110px;
