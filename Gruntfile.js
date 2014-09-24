@@ -40,6 +40,15 @@ module.exports = function(grunt) {
         command: function (language) {
           return "node build-agenda.js " + language + " > _includes/agenda-" + language + ".html";
         }
+      },
+      bower_install: {
+        command: "bower install"
+      },
+      jekyll_serve: {
+        command: "jekyll server --watch --config _config-local.yml"
+      },
+      npm_install: {
+        command: "npm install"
       }
     },
     uglify: {
@@ -60,8 +69,11 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-shell');
 
-  grunt.registerTask('default', ['jshint', 'bower_concat', 'concat', 'uglify', 'clean']);
+  grunt.registerTask('build', ['jshint', 'shell:npm_install', 'shell:bower_install', 'bower_concat', 'concat', 'uglify', 'clean']);
   grunt.registerTask('agenda', ['shell:agenda:es', 'shell:agenda:en']);
+  grunt.registerTask('run', ['build', 'shell:jekyll_serve']);
+
+  grunt.registerTask('default', ['run']);
 
 };
 

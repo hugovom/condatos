@@ -15,9 +15,9 @@ Build:
 % grunt build
 ```
 
-Serve:
+Run:
 ```
-% grunt serve
+% grunt run
 ```
 
 Updating the agenda:
