@@ -44,6 +44,9 @@ module.exports = function(grunt) {
       bower_install: {
         command: "bower install"
       },
+      jekyll_serve: {
+        command: "jekyll server --watch --config _config-local.yml"
+      },
       npm_install: {
         command: "npm install"
       }
@@ -68,6 +71,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('build', ['jshint', 'shell:npm_install', 'shell:bower_install', 'bower_concat', 'concat', 'uglify', 'clean']);
   grunt.registerTask('agenda', ['shell:agenda:es', 'shell:agenda:en']);
+  grunt.registerTask('run', ['build', 'shell:jekyll_serve']);
 
 };
 
