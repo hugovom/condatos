@@ -57,7 +57,7 @@ a {
   text-decoration: none; }
 
 
-.a, .a:link, .btn-condatos {
+a.btn.btn-condatos, a.btn.btn-Plenarias {
   color: #000;
   background-color: #a0f0dc;
   font-family: 'Open Sans', sans-serif;
