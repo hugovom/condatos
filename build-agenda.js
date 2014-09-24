@@ -13,6 +13,8 @@ var _ = require('./bower_components/underscore/underscore-min.js');
 var https = require('https');
 var csv_url = 'https://docs.google.com/spreadsheets/export?id=15Dtd8_Y14no-0KSxh8zNwiNnmo3LIJZyiS-je7liCTM&exportFormat=csv';
 
+var language = process.argv[2] || "es";
+
 https.get(csv_url, function(res) {
   var response = "";
 
@@ -77,10 +79,11 @@ function buildEventLink(event) {
     'Plenarias': 'Plenarias'
   };
   event['trackClass'] = trackClassMap[event['Track']] || 'condatos';
+  event['title'] = language == 'en' ? event['Panel inglés'] : event['Panel español'];
 
   var klass = "btn-<%= e['trackClass'] %> btn btn-default btn-s";
-  var href = "../agenda/es-<%= e.Día %>-<%= e['Hora Inicio'] %>-<%= e.trackClass %>.html";
-  var template = "<a class='" + klass + "' href='" + href + "'><%= e['Panel español'] %></a>";
+  var href = "../agenda/" + language + "-<%= e.Día %>-<%= e['Hora Inicio'] %>-<%= e.trackClass %>.html";
+  var template = "<a class='" + klass + "' href='" + href + "'><%= e.title %></a>";
   var compiled = _.template(template);
   return compiled({ e: event });
 }

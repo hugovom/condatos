@@ -37,7 +37,9 @@ module.exports = function(grunt) {
     },
     shell: {
       agenda: {
-        command: 'node build-agenda.js > _includes/agenda.html'
+        command: function (language) {
+          return "node build-agenda.js " + language + " > _includes/agenda-" + language + ".html";
+        }
       }
     },
     uglify: {
@@ -62,7 +64,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('default', ['jshint', 'bower_concat', 'concat', 'uglify', 'clean']);
-  grunt.registerTask('agenda', ['shell:agenda']);
+  grunt.registerTask('agenda', ['shell:agenda:es', 'shell:agenda:en']);
 
 };
 
