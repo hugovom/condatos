@@ -57,31 +57,31 @@ a {
   text-decoration: none; }
 
 
-.a, .a:link, .btn-condatos {
+a.btn.btn-condatos, a.btn.btn-Plenarias {
   color: #000;
   background-color: #a0f0dc;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
-.a, .a:link, .btn-politicas {
+a.btn.btn-politicas {
   color: #000;
   background-color: #e6ff00;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
-.a, .a:link, .btn-herramientas {
+a.btn.btn-herramientas {
   color: #000;
   background-color: #ff5a50;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
-.a, .a:link, .btn-innovacion {
+a.btn.btn-innovacion {
   color: #000;
   background-color: #b1aadc;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none; }
 
-.a, .a:link, .btn-taller {
+a.btn.btn-taller {
   color: #000;
   background-color: #00d4f1;
   font-family: 'Open Sans', sans-serif;

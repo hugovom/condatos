@@ -1,0 +1,12 @@
+{
+  "name": "condatos",
+  "version": "1.0.0",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "underscore": "~1.7.0"
+  },
+  "devDependencies": {}
+}
