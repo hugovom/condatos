@@ -73,5 +73,7 @@ module.exports = function(grunt) {
   grunt.registerTask('agenda', ['shell:agenda:es', 'shell:agenda:en']);
   grunt.registerTask('run', ['build', 'shell:jekyll_serve']);
 
+  grunt.registerTask('default', ['run']);
+
 };
 
