@@ -56,36 +56,17 @@ textarea {
 a {
   text-decoration: none; }
 
-
-a.btn.btn-condatos, a.btn.btn-Plenarias {
+a.btn.btn-s {
   color: #000;
-  background-color: #a0f0dc;
   font-family: 'Open Sans', sans-serif;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-a.btn.btn-politicas {
-  color: #000;
-  background-color: #e6ff00;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none; }
-
-a.btn.btn-herramientas {
-  color: #000;
-  background-color: #ff5a50;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none; }
-
-a.btn.btn-innovacion {
-  color: #000;
-  background-color: #b1aadc;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none; }
-
-a.btn.btn-taller {
-  color: #000;
-  background-color: #00d4f1;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none; }
+a.btn.btn-condatos, a.btn.btn-Plenarias { background-color: #a0f0dc; }
+a.btn.btn-politicas { background-color: #e6ff00; }
+a.btn.btn-herramientas { background-color: #ff5a50; }
+a.btn.btn-innovacion { background-color: #b1aadc; }
+a.btn.btn-taller { background-color: #00d4f1; }
 
 .btn{
   white-space: normal;
