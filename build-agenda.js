@@ -58,6 +58,7 @@ function buildScheduleHtml(events) {
 function buildScheduleRow(eventsInAnHour, hour) {
   var html = "<td>" + hour + "</td>";
 
+
   html += _.reduce(_.where(eventsInAnHour, { 'Día': '1' }), function(memo, event) {
     return memo + buildEventLink(event);
   }, "<td>");
@@ -76,7 +77,8 @@ function buildEventLink(event) {
     'Actores, políticas y principios': 'politicas',
     'Innovación y uso': 'innovacion',
     'Plataformas y herramientas': 'herramientas',
-    'Plenarias': 'Plenarias'
+    'Plenarias': 'Plenarias',
+    'Otros': 'otros'
   };
   event['trackClass'] = trackClassMap[event['Track']] || 'condatos';
   event['title'] = language == 'en' ? event['Panel inglés'] : event['Panel español'];
