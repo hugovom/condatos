@@ -1305,6 +1305,16 @@ footer {
   background: transparent url({{ site.root_url }}/img/img/dataBoot.png) repeat 0 100%;
   padding-bottom: 300px; }
 
+.table p,
+.table li { font-size: 15px;}
+.table strong {
+	font-weight: 700;
+}
+.td {
+	border-top: 1px solid #ddd;
+	padding-top: 8px;
+}
+
 /* =Media queries
 -------------------------------------------------------------- */
 @media screen and (max-width: 767px) {
@@ -1316,6 +1326,14 @@ footer {
   .navbar {
 	  height: auto;
   }
+  .table {
+	  width: 100%;
+  }
+  	.table p,
+  	.table li { font-size: 13px;}
+  	.table .col-sm-4 a { 
+	  	display: inline;
+  	}
   .navbar .logo {
     margin: 24px auto; }
    .col-sm-4 a {
