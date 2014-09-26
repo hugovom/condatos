@@ -1313,6 +1313,9 @@ footer {
     position: relative;
     width: 100%;
     height: auto; }
+  .navbar {
+	  height: auto;
+  }
   .navbar .logo {
     margin: 24px auto; }
    .col-sm-4 a {
@@ -1320,7 +1323,11 @@ footer {
 	   width: 100%;
 	   text-align: center;
    } 
-   .logonavbar { margin: 20px auto 0;}
+   .navbar .col-sm-2 a { 
+   		display: block;
+   		text-align: center;
+   	}
+   .logonavbar { margin: 20px auto 13px;}
   .navbar-brand {
     float: none;
     height: auto;
